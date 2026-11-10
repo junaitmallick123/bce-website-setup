@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" fill="none">
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" stroke="#c8ff32" stroke-opacity=".12"/></pattern>
+ <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v7" stroke="#c8ff32" stroke-opacity=".3"/></pattern>
+ <linearGradient id="tank" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#4b601f"/><stop offset="1" stop-color="#1b2514"/></linearGradient>
+</defs>
+<rect width="720" height="400" fill="#131911"/><rect width="720" height="400" fill="url(#grid)"/>
+<g stroke="#87985d" stroke-width="1">
+<path d="M40 316h640M70 341h584m-584-7v14m584-14v14M84 113V75h486v38M78 83h12m474 0h12M645 112h24v190h-24m16-184h14m-14 178h14"/>
+<path stroke-dasharray="6 7" d="M70 85v236m584-209v209M40 248h640"/>
+</g>
+<g fill="#aab592" font-family="monospace" font-size="11"><text x="287" y="66">EQUIPMENT PROFILE</text><text x="283" y="363">SCHEMATIC / NOT TO SCALE</text></g>
+<g stroke="#d0fc75" stroke-width="2.3" stroke-linejoin="round">
+<path fill="#26341a" d="M83 248v-51l26-59h106v110zm135 4h413v27H79v-27z"/>
+<path fill="#131911" d="m105 190 18-38h42v45h-60zm72-38h25v45h-25z"/>
+<path d="M108 204h60v45m17-40h18m-112 17h15m92-93v-18h9v18M84 264h-9v13h18"/>
+<path fill="url(#tank)" d="M252 139h289c31 0 55 20 55 48v13c0 28-24 48-55 48H252c-14 0-24-11-24-25v-59c0-14 10-25 24-25z"/>
+<path d="M247 157h293c19 0 35 9 40 20M246 229h301m-238-91v110m155-110v110m-180 0v16m240-16v16"/>
+<path fill="url(#hatch)" d="M302 140h16v107h-16zm153 0h16v107h-16z"/>
+<path d="M357 139v-16h49v16m-39-16v-7h27v7m79-6h61l35 22m-27 110h85v-14h-30m3-86h23v96m-23-82h23m-23 13h23m-23 13h23m-23 13h23m-23 13h23"/>
+<circle cx="630" cy="209" r="25" fill="#1b2514"/><circle cx="630" cy="209" r="16"/><circle cx="630" cy="209" r="7"/><path d="M630 234v17m-407 12h74m64 0h101"/>
+<g fill="#11170f">
+<circle cx="145" cy="275" r="38"/><circle cx="505" cy="275" r="38"/><circle cx="584" cy="275" r="38"/>
+</g>
+<g fill="#29371e"><circle cx="145" cy="275" r="21"/><circle cx="505" cy="275" r="21"/><circle cx="584" cy="275" r="21"/></g>
+<circle cx="145" cy="275" r="7"/><circle cx="505" cy="275" r="7"/><circle cx="584" cy="275" r="7"/>
+</g>
+<path d="M40 44V29h15m610 0h15v15M40 356v15h15m610 0h15v-15" stroke="#c8ff32" stroke-width="2"/>
+</svg>
